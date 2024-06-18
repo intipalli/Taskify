@@ -1,0 +1,41 @@
+ .leftSide, .rightSide {
+  height: 100vh;
+  width: 100%;
+}
+
+.middle {
+  height: 30vh;
+  width: 100%;
+
+}
+
+
+@media screen and (min-width:768px) {
+  .leftSide, .rightSide, .middle {
+    height: 100vh;
+  }
+}
+
+
+#result{
+height: 100vh;
+  width: 100%;
+  background-color: #1c2833;
+}
+
+.navbar-inverse{
+  background-color: #557B83;
+}
+
+button{
+  background-color: #A2D5AB;
+  width:200px;
+}
+
+.nav-item{
+  color:#E5EFC1;
+}
+
+body{
+  background-color: #EEEEEE;
+}
